@@ -15,7 +15,8 @@
 // Here's how to control the LEDs from any two pins:
 // 4 => PA4; 5 => PA5
 #define DATAPIN    4
-#define CLOCKPIN   7
+#define CLOCKPIN   5
+
 Adafruit_DotStar strip = Adafruit_DotStar(
   NUMPIXELS, DATAPIN, CLOCKPIN, DOTSTAR_BRG);
 // The last parameter is optional -- this is the color data order of the
